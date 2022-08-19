@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A22-express</title>
+
+  {{!-- Css files --}}
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+</head>
+<body class="js-body" data-page="{{page}}">
+  {{!-- navbar --}}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">回首頁</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="js-nav-item nav-item nav-link" data-page="about" href="/about">About</a>
+        <a class="js-nav-item nav-item nav-link" data-page="profile" href="/profile">Profile</a>
+        <a class="js-nav-item nav-item nav-link" data-page="content" href="/content">Content</a>
+      </div>
+    </div>
+  </nav>
+
+  {{!-- partial template --}}
+  {{{ body }}}
+
+  {{!-- Javascript files --}}
+  <script src="/javascripts/jquery-3.3.1.min.js"></script>
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+  {{!-- Main JS --}}
+  <script src="/javascripts/main.js"></script>
+</body>
+</html>
