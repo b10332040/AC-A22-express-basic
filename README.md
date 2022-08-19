@@ -1,4 +1,4 @@
-# Express
+# Express 練習
 使用 Node.js + Express 製作一支簡單的網頁應用，有 4 個頁面：
 - 首頁
 - About
@@ -33,12 +33,12 @@ npm install -g nodemon
 ### Installing - 專案建置
 1.開啟終端機(Terminal)，Clone 此專案至本機電腦。
 ```
-git clone https://github.com/b10332040/AC-restaurant-list.git
+git clone https://github.com/b10332040/AC-A22-express-basic.git
 ```
 
 2.進入專案資料夾。
 ```
-cd AC-restaurant-list
+cd AC-A22-express-basic
 ```
 
 3.下載相關套件。
